@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Diseño y nuevos medios, segunda versión remota" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+        <link href="style.css" rel="stylesheet" />
+        <title>DNO037vR2 &#127959;</title>
+    </head>
+    <body>
+        <nav class="bg-light border-bottom" id="secundario">
+            <div class="container p-3">
+                <div class="row small text-muted">
+                    <div class="col-4 text-start">DNO037</div>
+                    <div class="col-4 text-center">Diseño y Nuevos Medios</div>
+                    <div class="col-4 text-end">2021</div>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-md navbar-light bg-light border-bottom shadow-sm" id="principal">
+            <div class="container">
+                <h1><a class="navbar-brand" href="#">Margarita Vial</a></h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hello">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#work">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <section id="hello">
+                <header class="d-flex align-content-center justify-content-center">
+                    <div class="my-auto">
+                        <div class="text-center">
+                            <h2 class="display-1 text-white">HELLO</h2>
+                        </div>
+                    </div>
+                </header>
+                <div class="container">
+                    <div class="row py-4 py-md-5">
+                        <div class="col-12 col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                            <p class="lead">
+                           En esta página web podemos ver algunas fotos relacionadas a la naturaleza, con un tema en común de colores cálidos y otoñales.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="work">
+                <header class="d-flex align-content-center justify-content-center">
+                    <div class="my-auto">
+                        <div class="text-center">
+                            <h2 class="display-1 text-white">WORK</h2>
+                        </div>
+                    </div>
+                </header>
+                <div class="container">
+                    <div class="row mt-4 mb-5 g-4" data-masonry='{"percentPosition": true }' id="portfolio"></div>
+                </div>
+            </section>
+            <section id="contact">
+                <header class="d-flex align-content-center justify-content-center">
+                    <div class="my-auto">
+                        <div class="text-center">
+                            <h2 class="display-1 text-white">CONTACT</h2>
+                        </div>
+                    </div>
+                </header>
+                <div class="container">
+                    <div class="row py-4 py-md-5">
+                        <div class="col-12 col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                            <address class="d-flex justify-content-between align-items-center border-bottom border-dark">
+                                <span>
+                                <!-- https://icons.getbootstrap.com/ -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mailbox2 mb-1 me-1" viewBox="0 0 16 16">
+                                        <path d="M9 8.5h2.793l.853.854A.5.5 0 0 0 13 9.5h1a.5.5 0 0 0 .5-.5V8a.5.5 0 0 0-.5-.5H9v1z" />
+                                        <path
+                                            d="M12 3H4a4 4 0 0 0-4 4v6a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V7a4 4 0 0 0-4-4zM8 7a3.99 3.99 0 0 0-1.354-3H12a3 3 0 0 1 3 3v6H8V7zm-3.415.157C4.42 7.087 4.218 7 4 7c-.218 0-.42.086-.585.157C3.164 7.264 3 7.334 3 7a1 1 0 0 1 2 0c0 .334-.164.264-.415.157z"
+                                        />
+                                    </svg>
+                                    <strong>E-Mail</strong>
+                                </span>
+                                <a href="margarita.vial@uc.cl">margaritavial@uc.cl</a>
+                            </address>
+                            <address class="d-flex justify-content-between align-items-center border-bottom border-dark">
+                                <span>
+                                    <!-- https://icons.getbootstrap.com/ -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github mb-1 me-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                                        />
+                                    </svg>
+                                    <strong>GitHub</strong>
+                                </span>
+                                <a href="https://github.com/margaraitavialm">@margaritavialm</a>
+                            </address>
+                            <address class="d-flex justify-content-between align-items-center border-bottom border-dark">
+                                <span>
+                                    <!-- https://icons.getbootstrap.com/ -->
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pin mb-1 me-1" viewBox="0 0 16 16">
+  <path d="M4.146.146A.5.5 0 0 1 4.5 0h7a.5.5 0 0 1 .5.5c0 .68-.342 1.174-.646 1.479-.126.125-.25.224-.354.298v4.431l.078.048c.203.127.476.314.751.555C12.36 7.775 13 8.527 13 9.5a.5.5 0 0 1-.5.5h-4v4.5c0 .276-.224 1.5-.5 1.5s-.5-1.224-.5-1.5V10h-4a.5.5 0 0 1-.5-.5c0-.973.64-1.725 1.17-2.189A5.921 5.921 0 0 1 5 6.708V2.277a2.77 2.77 0 0 1-.354-.298C4.342 1.674 4 1.179 4 .5a.5.5 0 0 1 .146-.354zm1.58 1.408-.002-.001.002.001zm-.002-.001.002.001A.5.5 0 0 1 6 2v5a.5.5 0 0 1-.276.447h-.002l-.012.007-.054.03a4.922 4.922 0 0 0-.827.58c-.318.278-.585.596-.725.936h7.792c-.14-.34-.407-.658-.725-.936a4.915 4.915 0 0 0-.881-.61l-.012-.006h-.002A.5.5 0 0 1 10 7V2a.5.5 0 0 1 .295-.458 1.775 1.775 0 0 0 .351-.271c.08-.08.155-.17.214-.271H5.14c.06.1.133.191.214.271a1.78 1.78 0 0 0 .37.282z"/>
+</svg>
+                                    <strong>Pinterest</strong>
+                                </span>
+                                <a href="https://www.pinterest.cl/margaritavialm/_saved/">@margaritavialm</a>
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+       
+    </body>
+</html>

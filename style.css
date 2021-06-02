@@ -1,0 +1,46 @@
+@charset "UTF-8";
+body{
+	background-color: #CDCAC5 
+  
+}
+*{
+	transition:all ease 0.5s;
+}
+
+:hover{
+	transition:all ease 0.5s;
+}
+
+a.nav-link{
+	text-transform: lowercase;
+	font-variant: small-caps;
+}
+
+section header{
+	height:auto;
+	min-height: 60vh;
+	background-color: #CDCAC5  
+}
+
+section#hello header{
+	background:silver url('https://picsum.photos/id/1016/900/400') center center no-repeat;
+	background-size:cover;
+
+}
+
+section#work header{
+	background:silver url('https://picsum.photos/id/1032/900/400') center center no-repeat;
+	background-size:cover;	
+}
+
+section#contact header{
+	background:silver url('https://picsum.photos/id/185/900/400') center center no-repeat;
+	background-size:cover;	
+}
+
+:target:before {
+	content:"";
+	display:block;
+	height:70px;
+	margin:-70px 0 0;
+}
